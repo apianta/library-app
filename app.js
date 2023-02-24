@@ -5,9 +5,6 @@
 
 let library = [];
 
-const Book = {
-    title: String,
-    author: String,
-    numberOfPages: ,
-    bookCompletion: Boolean,
-};
+function Book() {}
+
+function addBookToLibrary() {}

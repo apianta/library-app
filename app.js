@@ -3,7 +3,13 @@
 // author
 // number of pages
 
-let library = [];
+class Library {
+	constructor() {
+		this.book = [];
+	}
+}
+
+const library = [];
 
 function Book() {}
 

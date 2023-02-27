@@ -1,7 +1,4 @@
-// Write a book object w/:
-// title
-// author
-// number of pages
+// data structure
 class Book {
 	constructor(
 		title = "Unknown",
@@ -38,3 +35,5 @@ class Library {
 }
 
 const library = newLibrary();
+
+// UI Function

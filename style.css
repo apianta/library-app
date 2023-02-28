@@ -1,0 +1,12 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}

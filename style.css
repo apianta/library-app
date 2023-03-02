@@ -1,6 +1,6 @@
 :root {
 	--light-brown: #b87d4b;
-	--text: #333333;
+	--black: #333333;
 	--white: #f5f5f5;
 	--dark-brown: #523a34;
 }
@@ -9,6 +9,14 @@ body {
 	display: grid;
 	grid-template-rows: 1fr 5fr;
 	background-color: var(--dark-brown);
+	color: var(--black);
+}
+
+a {
+	color: var(--black);
+}
+
+a:visited {
 	color: var(--black);
 }
 

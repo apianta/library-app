@@ -36,4 +36,4 @@ class Library {
 
 const library = newLibrary();
 
-// UI Function
+// UI Functionality

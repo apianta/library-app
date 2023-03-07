@@ -16,6 +16,12 @@ body {
 	color: var(--black);
 }
 
+button {
+	width: 100px;
+	height: 35px;
+	font-size: 1em;
+}
+
 .header h1 {
 	font-size: 4em;
 	background: -webkit-linear-gradient(#46988e, #274d5b);

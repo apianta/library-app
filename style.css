@@ -12,7 +12,8 @@ body {
 	height: 100vh;
 	width: 100vw;
 	grid-template-rows: 1fr 5fr;
-	background-color: var(--yellow);
+	background-color: #ffe086;
+	background-image: linear-gradient(180deg, #ffe086 0%, #fbf1c7 100%);
 	color: var(--black);
 }
 
@@ -21,9 +22,9 @@ button {
 	height: 35px;
 	font-size: 1em;
 }
-
+/* Header Styles */
 .header h1 {
-	font-size: 4em;
+	font-size: 2em;
 	background: -webkit-linear-gradient(#46988e, #274d5b);
 	padding-left: 15px;
 	background-clip: text;
@@ -33,9 +34,18 @@ button {
 
 .header {
 	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	grid-row: 1;
 }
 
+.options {
+	grid-column: 3;
+	grid-row: 2;
+	gap: 1em;
+}
+
+/* Books Section */
 .books-container {
 	grid-row: 2;
 }
@@ -46,8 +56,7 @@ button {
 	background: #f5f5f5;
 }
 
-/* Footer Style */
-
+/* Footer Styles */
 footer {
 	display: flex;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
